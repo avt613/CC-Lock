@@ -1,0 +1,1 @@
+taskkill /IM CChide.exe
