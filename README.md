@@ -1,3 +1,5 @@
+CC-Lock
+
 This program is made to close a preset application between certain set times. The current code is set to close Candy Crush between 13:40 and 18:00.
 I made it for someone who found that when he was on the computer, instead of doing work, he would end up just playing games.
 
