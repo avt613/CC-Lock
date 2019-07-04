@@ -9,11 +9,9 @@ While 1
    EndIf
    SplashOff()
    If @HOUR&@MIN > $start And @HOUR&@MIN < $end And ProcessExists($app) Then
-;	  Run(@ComSpec & " /c " & "taskkill.exe /IM stritz.exe /F", "", @SW_HIDE)
 	  Run(@ComSpec & " /c " & "taskkill.exe /IM "& $app &" /F", "", @SW_HIDE)
-;	  Run(@ComSpec & " /c " & "taskkill.exe /IM notepad.exe /F", "", @SW_HIDE)
 ;	  WinKill($app,"")
    ElseIf @HOUR&@MIN = $start And ProcessExists($app) Then
-	  SplashTextOn("Candy Crush Blocker", $sMessage & (60- @sec) , -1, 60, -1, 50, 33, "", 24)
+	  SplashTextOn($FreindlyAppName & " Blocker", $FreindlyAppName & $sMessage & (60- @sec) , -1, 60, -1, 50, 33, "", 24)
    EndIf
 WEnd
