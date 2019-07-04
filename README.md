@@ -12,7 +12,7 @@ There are main files of code "CClock.au3", "CCconfig.au3" and "CCsystray.au3".
   $end = the time when the program should stop monitering and killing the preset application
   $sMessage = the countdown message the program should start saying 60 seconds before the application will b killed
 
-The program is coded in autoit so you may need to download the program from the official website to run the code or the convert it to an exe. https://www.autoitscript.com/site/autoit/downloads/
+The program is coded in autoit so you may need to download the code executor and compiler from the official website to run the code or to convert it to an exe file. https://www.autoitscript.com/site/autoit/downloads/
 
 If you have any questions I am happy to try and answer.
-If there are any legal problems with this project please inform me as I am new to github and sharing coding online.
+If there are any issues with this project (eg copyright issues) or you have any suggestions/ improvements for my project please contact me.
