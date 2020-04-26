@@ -8,5 +8,4 @@ There are main files of code "CClock.au3", "CCconfig.au3" and "CCsystray.au3".
 "CCsystray.au3" is the system tray icon and has the option of closing CClock after typing in the correct password. It also reopens CClock if closed.
 The program is coded in autoit so you may need to download the code executor and compiler from the official website to run the code or to convert it to an exe file. https://www.autoitscript.com/site/autoit/downloads/
 
-If you have any questions I am happy to try and answer.
-If there are any issues with this project (eg copyright issues) or you have any suggestions/ improvements for my project please contact me.
+If you have any questions or suggestions please contact me.
